@@ -1,0 +1,31 @@
+﻿<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="plate" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 120) rotate(90) scale(120)">
+      <stop offset="0" stop-color="#FFF9EA"/>
+      <stop offset="1" stop-color="#FFD98A"/>
+    </radialGradient>
+    <linearGradient id="bunTop" x1="62" y1="68" x2="178" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCF6D"/>
+      <stop offset="1" stop-color="#F39A2D"/>
+    </linearGradient>
+    <linearGradient id="bunBottom" x1="70" y1="154" x2="170" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5B245"/>
+      <stop offset="1" stop-color="#D8811C"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="101" fill="url(#plate)" stroke="#F3B248" stroke-width="10"/>
+
+  <ellipse cx="120" cy="100" rx="66" ry="37" fill="url(#bunTop)"/>
+  <ellipse cx="92" cy="86" rx="4" ry="2.5" fill="#FFF4C9"/>
+  <ellipse cx="111" cy="82" rx="4" ry="2.5" fill="#FFF4C9"/>
+  <ellipse cx="132" cy="85" rx="4" ry="2.5" fill="#FFF4C9"/>
+  <ellipse cx="151" cy="91" rx="4" ry="2.5" fill="#FFF4C9"/>
+
+  <rect x="59" y="118" width="122" height="11" rx="5.5" fill="#4CB95C"/>
+  <path d="M58 132C68 125 82 124 93 130C104 136 116 138 128 132C140 126 155 125 182 131V136H58V132Z" fill="#D95F26"/>
+  <rect x="56" y="136" width="128" height="14" rx="7" fill="#5A3218"/>
+  <rect x="61" y="150" width="118" height="6" rx="3" fill="#F5D15E"/>
+
+  <rect x="66" y="157" width="108" height="24" rx="12" fill="url(#bunBottom)"/>
+</svg>
